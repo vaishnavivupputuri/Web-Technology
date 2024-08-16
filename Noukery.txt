@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noukery.com</title>
+    <style>
+        .margin-right{
+            position: absolute;
+            right:30%;
+           border: 5px solid black;
+           border-style: double;
+           background-color:white;
+           padding: 30px;
+           margin: 20px;
+        }
+        p{
+            font-size:25px ;
+            
+        }
+        input{
+            font-size: 30px;
+        }
+        body{
+            font-size: 20px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <div class="margin-right">
+            <h2 style="font-size: 30px;font-family: Verdana, Geneva, Tahoma, sans-serif;"><b>Find a job & grow your career</b></h2>
+            <p><b>Full name:</b></p>
+            <input type="text">
+            <br>
+            <p><b>Email ID:</b></p>
+            <input type="text">
+            <br>
+          <p><b> Password:</b></p>
+            <input type="password"><br>
+           <p style="margin-right:10%;"> Maximum 6 characters required.</p>
+           <p><b> Mobile number:</b></p>
+            <input type="text">
+            <br><br>
+            <p><b>Work Status</b></p>
+            <textarea name="feedback" id="103" placeholder="I'm Experienced" rows="5" ></textarea>
+            <textarea name="feedback" id="102" placeholder="I'm Fresher" rows="5" ></textarea>
+            <br><br>
+           <label for="101">
+            <input type="checkbox" name="Notes" value="Notes" id="101">Send me important updates on Whatsapp.
+           </label>
+           <br><br>
+           <input type="submit"value="Register now" style="font-size: 20px; background-color: darkblue;color: white; border-radius: 10px;">
+        </div>    
+    </form>
+</body>
+</html>
