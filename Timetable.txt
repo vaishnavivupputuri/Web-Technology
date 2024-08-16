@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ds-4 time table</title>
+    <STYLE>
+        TABLE,th,td{
+            
+            border: 2px solid black;
+            border-collapse: collapse;
+            width: 800px;
+            text-align: center;
+            height: 65px;
+            
+        }
+        h4{
+            text-align: center;
+           color: red;
+         font-size: xx-large;
+           height:0px;
+        }
+        p{
+            text-align: center;
+            height: 2px;
+            
+        }
+        h1,h2,h3{
+         text-align: center;
+         height: 18px;
+        }
+        h3{
+        text-align: center;
+        font-size:xx-large ;
+        padding-inline: 1px;
+        }
+       table{
+        margin-inline: 24%;
+        /* width: 300px; */
+      
+       }
+
+      h5{
+        text-align:left;
+        margin-inline: 24%;
+       }
+       th{
+        background-color:rgb(107, 107, 101);
+        
+       }
+       td:nth-child(1){
+        background-color: rgb(107, 107, 101);
+
+       }
+    </STYLE>
+</head>
+<body>
+    <h4>MOHAN  BABU  UNVERSITY</h4>
+    <p>Sree Sainath Nagar, A. Rangampeta-517102</p>
+    <h1>SCHOOL OF COMPUTING</h1>
+    <h2><U>DEPARTMENT OF DATA SCIENCE<br>CLASS WORK TIME TABLE(2024-25)</U></h2>
+    <h3>V Semester(Batch-2)(DS-4)</h3>
+    <h5><b>ROOM NO:704</b></h5>
+    <table>
+        <tr>
+            <th>DAY/HR</th>
+            <TH>10.00AM TO 11.00AM</TH>
+            <TH>11.00AM TO 12.00PM</TH>
+            <th rowspan="6">L<br>U<br>N<br>C<br>H<br><br>B<br>R<br>E<br>A<br>K<br></th>
+            <TH>01.15PM TO 02.15PM</TH>
+            <TH>02.15PM TO 03.15PM</TH>
+            <th rowspan="6">B<br>R<br>E<br>A<br>K</th>
+            <TH>03.45PM TO 04.45PM</TH>
+            <TH>04.45PM TO 05.45PM</TH>
+        </tr>
+        <tr>
+            <td>MON</td>
+            <TD>EMSME(MOOC)</TD>
+            <TD>CC</TD>
+            <TD colspan="2">ML LAB <br>ROOM NO:511</TD>
+             <TD>WT</TD>
+            <TD>DM(MOOC)</TD>
+        </tr>
+        <tr>
+            <td>TUE</td>
+            <TD>ML(705)</TD>
+            <TD>PA(MOOC)</TD>
+            <TD colspan="2">DAA LAB ROOM NO:511</TD>
+             <TD>DAA</TD>
+            <TD>PA(MOOC)</TD>
+        </tr>
+        <tr>
+            <td>WED</td>
+            <TD>CC(706)</TD>
+            <TD>DM(MOOC)</TD>
+            <TD colspan="2">CC LAB ROOM NO:511</TD>
+             <TD>ML</TD>
+            <TD>LIB</TD>
+        </tr>
+        <tr>
+            <td>THUR</td>
+            <TD>EMSME(MOOC)</TD>
+            <TD>ML(703)</TD>
+            <TD >DAA</TD>
+             <TD>WT</TD>
+            <TD>CC</TD>
+            <TD>PA(MOOC)</TD>
+        </tr>
+        <tr>
+            <td>FRI</td>
+            <TD>PA(MOOC)</TD>
+            <TD>WT(703)</TD>
+            <TD colspan="2" >WT LAB ROOM NO:510</TD>
+             <TD>DAA</TD>
+            <TD>EMSME(MOOC)</TD>
+        </tr>
+    </table>
+</body>
+</html>
