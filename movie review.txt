@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Review: Sita Ramam</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        .container {
+            width: 80%;
+            margin: 40px auto;
+            padding: 20px;
+            border: 1px solid whitesmoke;
+            border-radius: 10px;
+            box-shadow: 10px ;
+        }
+        
+        .movie-poster {
+            float: left;
+            margin-right: 20px;
+        }
+        
+        .movie-poster img {
+            width: 500px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 50px;
+        }
+        
+        .cast {
+            margin-bottom: 20px;
+        }
+        
+        .cast ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .cast li {
+            margin-bottom: 10px;
+        }
+        
+        .performance {
+            margin-bottom: 20px;
+        }
+        
+        .highlights {
+            margin-bottom: 20px;
+        }
+        
+        .rating {
+            font-size: 24px;
+            font-weight: bold;
+            color:  orangered;
+        }
+        
+        .trailer {
+            margin-bottom: 50px;
+        }
+        
+        .trailer iframe {
+            width: 100%;
+            height: 400px;
+            border: none;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Movie Review: Sita Ramam</h1>
+        <div class="movie-poster">
+            <img src="https://images.filmibeat.com/img/2022/09/sita-ramam-review-1-1662361410.jpg" alt="RRR">
+        </div>
+        <p>Directed by: Hanu Raghavapudi</p>
+        <p>Released: 2022</p>
+        <p>Genre: Romance,Action</p>
+        <div class="cast">
+            <h2>Cast:</h2>
+            <ul>
+                <li>Mrunal Thakur as Princess Noor Jahan</li>
+                <li>Dulquer Salman as Lieutenant Ram</li>
+                <li>Rashmika Mandanna as Afreen Ali</li>
+            </ul>
+        </div>
+        <div class="trailer">
+            <h2>Trailer:</h2>
+            <iframe width="1519" height="526" src="https://www.youtube.com/embed/Ut-5fcY145o" title="Sita Ramam - Official Telugu Trailer | Dulquer Salmaan, Mrunal Thakur, Rashmika Mandanna | Sep 9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+        </div>
+        <div class="performance">
+            <h2>Performance:</h2>
+            <p>Sita Ramam is a cinematic masterpiece that showcases the exceptional performances of its lead actors, Mrunal Thakur and Dulquer Salman. The film's direction, cinematography, and music are also praiseworthy.</p>
+        </div>
+        <div class="highlights">
+            <h2>Highlights:</h2>
+            <p> Sita Ramam is quite beautiful despite its flaws. It has the old school charming romance between two strangers who meets through letters and fate. Best thing about Sita Ramam is the performances by both of the lead actors.</p>
+        </div>
+        <p class="rating">Rating: 9.8/10</p>
+    </div>
+</body>
+</html>
