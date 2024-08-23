@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third Semester results</title>
+    <style>
+        
+        table,td{
+            border: 2px solid grey;
+            border-collapse: collapse;
+            padding: 10px;
+            margin: 20px;   
+            font-size: 20px;
+        }
+       
+        th{
+            padding: 10px;
+            margin: 20px;   
+            font-size: 20px;
+        } 
+        .center{
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <table class="center">
+        <!-- <caption style="font-size: 40px;">Third Semester results</caption> -->
+        <tr style="background-color: lightblue;">
+            <th><b>SEMESTER</b></th>
+            <th><B>COURSE CODE</B></th>
+            <th><b>COURSE NAME</b></th>
+            <th><b>CREDIT</b></th>
+            <th><b>GRADE POINT</b></th>
+            <th><b>GRADE</b></th>
+            <th><b>RESULT STATUS</b></th>
+        </tr>
+        <tr>
+            <td>III-Semester - Batch-II</td>
+            <td>22LG107601M</td>
+            <td>PROFESSIONAL ETHICS AND HUMAN VALUES</td>
+            <td>2</td>
+            <td>10</td>
+            <td>O</td>
+            <td style=" border:10px solid greenyellow; padding: 5px; background-color: greenyellow;  display: inline-flex; border-radius: 35% ">Pass</td>
+        </tr>
+        <tr>
+            <td>III-Semester - Batch-II</td>
+            <td>22CS102003</td>
+            <td>DATA STRUCTURES	</td>
+            <td>4</td>
+            <td>9</td>
+            <td>A+</td>
+            <td style=" border:10px solid greenyellow; padding: 5px; background-color: greenyellow;  display: inline-block; border-radius: 35% ">Pass</td>
+        </tr>
+        <tr>
+            <td>III-Semester - Batch-II</td>
+            <td>22MM101405</td>
+            <td>Numerical Methods <br> Probability and <br> Statistics</td>
+            <td>3</td>
+            <td>9</td>
+            <td>A+</td>
+            <td style=" border:10px solid greenyellow; padding: 5px;background-color: greenyellow;  display: inline-block; border-radius: 35% ">Pass</td>
+        </tr>
+        <tr>
+            <td>III-Semester - Batch-II</td>
+            <td>v22CS102005</td>
+            <td>Database Management <br> Systems</td>
+            <td>4</td>
+            <td>9</td>
+            <td>A+</td>
+            <td style=" border:10px solid greenyellow; padding: 5px;background-color: greenyellow;  display: inline-block; border-radius: 35% ">Pass</td>
+        </tr>
+        <tr>
+            <td>III-Semester - Batch-II</td>
+            <td>22DS102001</td>
+            <td>Foundations of Data <br> Science</td>
+            <td>4</td>
+            <td>8</td>
+            <td>A</td>
+            <td style=" border:10px solid greenyellow; padding: 5px;background-color: greenyellow;  display: inline-block; border-radius: 35% ">Pass</td>
+        </tr>
+        <tr>
+            <td>III-Semester - Batch-II</td>
+            <td>22LG201701</td>
+            <td>PERSONALITY <br> DEVELOPMENT</td>
+            <td>3</td>
+            <td>9</td>
+            <td>A+</td>
+            <td style=" border:10px solid greenyellow; padding: 5px;background-color: greenyellow;  display: inline-block; border-radius: 35% ">Pass</td>
+        </tr>
+        <tr>
+            <td>III-Semester - Batch-II</td>
+            <td>22CM101402M</td>
+            <td>PRINCIPLES OF <br> BUSINESS ECONOMICS <br> AND ACCOUNTANCY</td>
+            <td>3</td>
+            <td>10</td>
+            <td>O</td>
+            <td style=" border:10px solid greenyellow; padding: 5px;background-color: greenyellow;  display: inline-block; border-radius: 35% ">Pass</td>
+        </tr>
+        <tr>
+            <td>III-Semester - Batch-II</td>
+            <td>22AI101019M</td>
+            <td>FOUNDATIONS OF <br> OPERATING SYSTEMS	</td>
+            <td>3</td>
+            <td>10</td>
+            <td>O</td>
+            <td style=" border:10px solid greenyellow; padding: 5px;background-color: greenyellow;  display: inline-block; border-radius: 35% ">Pass</td>
+        </tr>
+        <tr >
+            <td><b>Credit Registered : 26</b></td>
+            <td><b>Credit Completed : 26</b></td>
+            <td><b>SGPA : 9.10</b></td>
+            <td ><b>CGPA : 8.64</b></td>
+        </tr>
+    </table>
+</body>
+</html>
