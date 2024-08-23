@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Styles</title>
+</head>
+<body>
+    <h1 style="background-color: blue;color: brown;text-align: center; font-family: 'Times New Roman', Times, serif;">Mohan Babu university</h1>
+    <font color="red">Hello everyone</font>
+     <p style="font-style: italic; color: black;">Good Morning</p>
+     <p style="font-family: Verdana;">Web Technology</p>
+     <p style="font-size:25">Font styles</p>
+     <p style="font-family: cursive;">Html</p>
+     <h3 style="font: bold;">WEB page</h3>
+</body>
+</html>
