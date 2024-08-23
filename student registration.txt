@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+    <style>
+        form {
+            margin: auto;
+            width: 50%;
+            padding: 20px;
+            border: 1px solid skyblue;
+            border-radius: 10px;
+            background-color: plum
+        }
+        h2 {
+            text-align: center;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        input[type="text"], input[type="email"], input[type="date"], input[type="tel"], select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid skyblue;
+            border-radius: 5px;
+        }
+        .buttons {
+            text-align: center;
+        }
+        .buttons button {
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            background-color: skyblue;
+            color: white;
+            cursor: pointer;
+        }
+        .buttons button:hover {
+            background-color:skyblue;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h2>Student Registration Form</h2>
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first-name" required>
+        
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name" required>
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+        
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="">Select Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        
+        <label for=""></label>
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" required></textarea>
+        
+        <div class="buttons">
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
