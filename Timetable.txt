@@ -55,7 +55,7 @@
     </STYLE>
 </head>
 <body>
-    <h4>MOHAN  BABU  UNVERSITY</h4>
+    <h4>MOHAN  BABU  UNIVERSITY</h4>
     <p>Sree Sainath Nagar, A. Rangampeta-517102</p>
     <h1>SCHOOL OF COMPUTING</h1>
     <h2><U>DEPARTMENT OF DATA SCIENCE<br>CLASS WORK TIME TABLE(2024-25)</U></h2>
