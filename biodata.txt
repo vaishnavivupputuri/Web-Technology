@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Biodata</title>
+    <style>
+        h2{
+            font-size: 30px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color:plum;
+            font-style: italic;
+            height: 40px;   
+        }
+        p{
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:black;
+        }
+    </style>
+</head>
+<body>
+    <h2><b>Personal Information</b></h2>
+    <p>Name: V.Vaishnavi</p>
+    <p>Date of Birth: July 4, 2005 </p>
+    <p>Contact Information: 7207030551</p>
+    <p>Gender: Female</p>
+    <p>Languages Known: English,Hindi</p>
+    <h2><b>Educational Information</b></h2>
+    <p>Institute name: Mohan Babu University</p>
+    <p>Degree: B.Tech</p>
+    <h2><b>Skills</b></h2>
+    <p>Soft Skills: Teamwork, Problem-solving, Time management</p>
+    <h2><b>Additional Information</b></h2>
+    <p>Hobbies: Reading books,Learning new languages</p>
+</body>
+</html>
