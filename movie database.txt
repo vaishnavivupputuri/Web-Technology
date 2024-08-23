@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie DataBase</title>
+    <style>
+        table,th,td{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        table{
+            width: 800px;
+        }
+        th,td{
+            padding: 30px;
+        }
+        th{
+            font-size: 35px;
+            color:brown;
+            
+        }
+        td{
+            font-size: 25px;
+            color: black;
+            font-style: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .center{
+            margin-left: auto;
+            margin-right: auto;
+           
+        }
+    </style>
+</head>
+<body>
+    <table class="center" >
+        <caption style="font-size: 50px;color:black;"><b>Movie DataBase</b></caption>
+        <tr>
+         <th>Title</th>
+         <th>Year</th>
+         <th>Director</th>
+         <th>Genre</th>
+         <th>Rating</th>
+        </tr>
+        <br>
+        <tr>
+           <td>Hi Nanna</td>
+           <td>2023</td>
+           <td>Shouryuv</td>
+           <td>Romance, Drama</td>
+           <td>9.5/10</td>
+        </tr>
+        <br>
+        <tr>
+            <td>Virupaksha: The Beginning</td>
+            <td>2023</td>
+            <td>Karthik Varma Dandu</td>
+            <td>Mystery,Thriller</td>
+            <td>7.8/10</td>
+           
+        </tr>
+        <br>
+        <tr>
+            <td>Sir</td>
+            <td>2023</td>
+            <td>Venky Atluri</td>
+            <td>Drama,Action</td>
+            <td>7.8/10</td>
+           
+        </tr>
+        <br>
+        <tr>
+            <td>Eega</td>
+            <td>2012</td>
+            <td>S.S. Rajamouli</td>
+            <td>Action, Fantasy</td>
+            <td>7.7/10</td>
+        </tr>
+        <br>
+        <tr>
+            <td>Geetha Govindam</td>
+            <td>2018</td>
+            <td>Parasuram</td>
+            <td>Drama, Romance</td>
+            <td>9.0/10</td>
+        </tr>
+        <br>
+        <tr>
+            <td>Sita Ramam</td>
+            <td>2022</td>
+            <td>Hanu Raghavapudi</td>
+            <td>Romance,Drama</td>
+            <td>9.0/10</td>
+        </tr>
+        <br>
+        <tr>
+            <td>Karthikeya 2</td>
+            <td>2022</td>
+            <td>Chandoo Mondeti</td>
+            <td>Adventure,Fantasy</td>
+            <td>7.9/10</td>
+        </tr>
+        <br>
+        <tr>
+            <td>Major</td>
+            <td>2022</td>
+            <td>Sashi Kiran Tikka</td>
+            <td>Biography,Action</td>
+            <td>8.2/10</td>
+        </tr>
+        <br>
+        <tr>
+            <td>Ye Maaya Chesave</td>
+            <td>2010</td>
+            <td>Gautham Vasudev Menon</td>
+            <td>Romance, Drama</td>
+            <td>7.7/10</td>
+        </tr><br>
+        <tr>
+            <td>Mahanati</td>
+            <td>2018</td>
+            <td>Nag Ashwin</td>
+            <td>Biography, Drama</td>
+            <td>8.5/10</td>
+        </tr><br>
+    </table>
+</body>
+</html>
